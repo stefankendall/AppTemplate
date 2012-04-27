@@ -75,7 +75,7 @@ Ext.define('CustomApp', {
         var columns = this.createColumnsForFields(selectedFields);
         var snapshotGrid = Ext.create('Ext.grid.Panel', {
             title: 'Snapshots',
-            //store: Ext.data.StoreManager.lookup('simpsonsStore'),
+            //store: Ext.data.StoreManager.lookup('snapshotStore'),
             store: snapshotStore,
             columns: columns,
             height: 200,
