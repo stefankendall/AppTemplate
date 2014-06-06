@@ -3,9 +3,9 @@
     "className": "CustomApp",
     "sdk": "2.0p",
     "javascript": [
-        "App.js"
+        "js/App.js"
     ],
     "css": [
-        "app.css"
+        "stylesheets/app.css"
     ]
 }
